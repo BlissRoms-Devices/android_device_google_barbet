@@ -1,0 +1,20 @@
+[
+ {
+    "remote": "github",
+    "repository": "BlissRoms-Devices/android_device_google_redbull",
+    "target_path": "device/google/redbull",
+    "revision": "arcadia"
+ },
+ {
+    "remote": "github",
+    "repository": "LineageOS/android_kernel_google_barbet",
+    "target_path": "kernel/google/barbet",
+    "revision": "lineage-19.1"
+ },
+ {
+    "remote": "github",
+    "repository": "BlissRoms-Devices/vendor_google_barbet",
+    "target_path": "vendor/google/barbet",
+    "revision": "arcadia"
+ }
+]
