@@ -4,9 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common Lineage stuff.
+# Inherit some common bliss stuff.
 TARGET_DISABLE_EPPE := true
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/barbet/aosp_barbet.mk)
@@ -16,7 +16,7 @@ include device/google/barbet/device-lineage.mk
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 5a
-PRODUCT_NAME := lineage_barbet
+PRODUCT_NAME := bliss_barbet
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2340
