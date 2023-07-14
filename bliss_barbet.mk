@@ -10,6 +10,7 @@ $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/barbet/aosp_barbet.mk)
+$(call inherit-product, device/google/redbull/lineage_common.mk)
 
 include device/google/barbet/device-lineage.mk
 
@@ -25,8 +26,8 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=barbet \
-    PRIVATE_BUILD_DESC="barbet-user 13 TQ2A.230505.002 9891397 release-keys"
+    PRIVATE_BUILD_DESC="barbet-user 13 TQ3A.230705.001 10216780 release-keys"
 
-BUILD_FINGERPRINT := google/barbet/barbet:13/TQ2A.230505.002/9891397:user/release-keys
+BUILD_FINGERPRINT := google/barbet/barbet:13/TQ3A.230705.001/10216780:user/release-keys
 
 $(call inherit-product, vendor/google/barbet/barbet-vendor.mk)
