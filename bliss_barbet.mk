@@ -23,6 +23,9 @@ TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Gapps
+TARGET_STOCK_GAPPS:= true
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="barbet-user 14 AP2A.240805.005 12025142 release-keys" \
     BuildFingerprint=google/barbet/barbet:14/AP2A.240805.005/12025142:user/release-keys \
