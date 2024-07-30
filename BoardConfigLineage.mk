@@ -7,6 +7,8 @@
 # Add before redbull BoardConfigLineage.mk
 BOOT_KERNEL_MODULES += ftm5.ko
 
+DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
+
 include device/google/redbull/BoardConfigLineage.mk
 
 BOOT_SECURITY_PATCH := 2024-08-05
