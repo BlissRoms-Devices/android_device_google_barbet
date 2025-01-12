@@ -27,8 +27,8 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_STOCK_GAPPS:= true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="barbet-user 14 AP2A.240805.005 12025142 release-keys" \
-    BuildFingerprint=google/barbet/barbet:14/AP2A.240805.005/12025142:user/release-keys \
+    BuildDesc="barbet-user 14 AP2A.240805.005.S4 12281092 release-keys" \
+    BuildFingerprint=google/barbet/barbet:14/AP2A.240805.005.S4/12281092:user/release-keys \
     DeviceProduct=barbet
 
 $(call inherit-product, vendor/google/barbet/barbet-vendor.mk)
