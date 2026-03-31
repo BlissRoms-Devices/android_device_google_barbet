@@ -18,6 +18,9 @@ PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 5a
 PRODUCT_NAME := bliss_barbet
 
+# Gapps
+TARGET_GAPPS_VARIANT := micro
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
